@@ -1,4 +1,4 @@
-<!DOCTYPE html!>
+<!doctype html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -6,9 +6,9 @@
 </head>
 <body>
 	<a href ="{% url 'home' %}">Home</a>
-	|<a href ="{% url 'about' %}" >About</a>
-	|<a href ="{% url 'blog' %}" >Blog</a>
-	|<a href ="{% url 'help' %}">Help</a>
+{#	|<a href ="{% url 'about' %}" >About</a>#}
+{#	|<a href ="{% url 'blog' %}" >Blog</a>#}
+{#	|<a href ="{% url 'help' %}">Help</a>#}
 
 	{% block body %}
 	{% endblock %}
